@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Prometheus';
+    src: url(../fonts/prometheus.ttf);
+    font-weight:400;
+  }
+#home {
+  	background-image: url(../images/iphone/prometheusbasepic_actual300x560.jpg);
+  	font-family: 'Prometheus', Audiowide;
+  	font-size: 16.5px;
+  	font-weight: bolder;
+    height: 513px;
+  	width: 305px;
+  	background-repeat: no-repeat;
+  	-webkit-background-size: cover;
+  	 -moz-background-size: cover;
+  	 -ms-background-size: cover;
+  	 -o-background-size: cover;
+  	 background-size: cover; 
+}
+.homeheader {
+  	margin: 0 10px 0;
+  	padding: 0 10px 0;
+  	height: 550px;
+}
+
+h1 {
+  color: #99ff66;
+}
+
+a {
+  text-decoration: none;
+}
+/*Navigation---------------------------------------------------------------*/
+nav {
+  	margin: 0 10px 0;
+  	padding: 0 10px 0;
+  	height: 544px;
+}
+nav ul {
+  	list-style: none;
+    margin: 0 10px 0;
+  	padding: 0 10px 0;
+  	height: 538px;
+}
+nav ul li {
+	  margin: -15px 0px 0px -9px;
+    padding: 20px 30px 0;
+}
+nav ul li a img{
+  	text-decoration: none;
+  	color: #99ff66;
+    padding:0 0 0 29px;
+    opacity: .875;
+}
+nav ul li a img:hover {
+  	color: #33CCFF;
+  	opacity: 0.5;
+  	transition: all 2s ease-in-out;
+}
+
+
+/*Dialog X out------------------------*/
+body {
+  	background-color: #1a1a1a;
+  	color: #ffffff;
+  	font-size: 16.5px;
+    font-weight: bolder;
+  	height: 554px;
+  	width: 304px;
+}
+[class*='close-'] {
+  position: absolute;
+ }
+.close:after {
+    content: '✖';
+    color: #FFFF00;
+    margin-left: 98%;
+    transition: all 2s ease-in-out;
+}
+.dialog {
+    height: 568px;
+    position: absolute;
+    width: 320px; 
+}
+.dialog,
+header {
+    width: 279px; 
+    margin: 0 auto;
+}
+header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/*Trailerpage------------------------*/
+#trailerbody {
+  	background-image: url(../images/iphone/schematic493x300.jpg);
+  	color: #99ff66;
+  	font-family: 'Prometheus', Audiowide;
+    font-size: 16.5px;
+    font-weight: bolder;
+    height: 554px;
+  	width: 304px;
+}
+.trailerheader {
+ 	  width: 268px;
+	  margin: 0 7px 0px;
+	  padding: 0 9px 0px;
+    text-align: center;
+ }
+.trailervideo-container {
+	  height: 357px;
+  	width: 269px;
+}
+iframe {
+	  padding-right: 2px;
+}
+/*Gallerypage--------------------------*/
+#gallerybody {
+  	background-image: url(../images/iphone/schematic493x300.jpg);
+  	color: #99ff66;
+  	font-family: 'Prometheus', Audiowide;
+    font-size: 16.5px;
+    font-weight: bolder;
+    height: 554px;
+  	width: 304px;
+}
+.galleryheader {
+ 	  height: 529px;
+	  width: 268px;
+	  margin: 0 7px 0px;
+	  padding: 0 9px 0px;
+    text-align: center;
+ }
+.gallerycontainer {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+ }
+.slideimg {
+    margin: 13px 6px 0px 6px;
+    padding:0 0 0 0;
+ }
+/* Slideshow
+------------------------------------------*/
+.rslides-container {
+    border-radius:8px;
+    position: relative;
+    margin: -25em 0 1em 0.6em;
+    border: solid 1px #eee;
+    padding: 0.375em;
+    width: 266px
+}
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.rslides li:first-child {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    }
+.rslides img {
+    float: left;
+    width:100%;
+    }
+/* Slideshow navigator arrows. */
+a.rslides_nav {
+    padding: 0.25em;
+    line-height: 1;
+}
+a.rslides_nav.prev {
+    float: left;
+    color: #FFFF00;
+}
+a.rslides_nav.next {
+    float: right;
+    color: #FFFF00;
+}
+a.rslides_nav:hover {
+    text-decoration: none;
+    color: #FFFF00;
+}
+/* Slideshow position indicator tabs. */
+.rslides_tabs {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1;
+}
+.rslides_tabs li {
+    margin: 0.375em 0.25em 0;
+    display: inline-block;
+}
+.rslides_tabs a {
+    text-indent: -9999px;
+    font-size:12px;
+    border-radius:50%;
+    display: block;
+    border: 1px solid;
+    border-color: #33CCFF;
+    background: #99ff66;
+    width: 1em;  // 12px
+    height: 1em; // 12px
+}
+.rslides_tabs a:hover {
+    border-color: #000;
+}
+/* Highlight the position indicator tab of currently active slide. */
+.rslides_here a {
+    background: #33CCFF;
+}
+
+

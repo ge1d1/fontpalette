@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">		
+	<title>GALLERY</title>
+	<meta name="robots" content="index, follow, noodp, noydir">
+	<meta name="description" content="A Website for the movie Prometheus">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lt IE 9]>
+    	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="assets/css/styles.css">	
+	<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>	
+</head>
+<body id="gallerybody">
+	<div class="dialog"> <!-- Dialog -->
+			<a href="index.html" class="close"></a>		
+		<header class="galleryheader"> <!-- Header -->
+			<h1>GALLERY</h1>
+		</header> <!-- /galleryHeader -->
+			<div class="gallerycontainer">
+				<div class="rslides-container">
+		  			<ul class="rslides">
+		     			<li class="slideimg"><img src="assets/images/jslideshow/flight292.jpg" alt="Prometheus landing"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/code292.jpg" alt="Prometheus code panel"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/engineer292.jpg" alt="An Engineer"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/Fassbender292.jpg" alt="Prometheus - David 1"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/flight2292.jpg" alt="Prometheus landing 2"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/globe292.jpg" alt="Prometheus Holographic globe"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/Fassbender1292.jpg" alt="Prometheus - David 2"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/holloway292.jpg" alt="Prometheus - dr Charlie Holloway"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/HUD292.jpg" alt="Prometheus - Heads up helmet display"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/idris292.jpg" alt="Prometheus - Janek"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/noomi292.jpg" alt="Prometheus - Dr Elizabeth Shaw"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/prometheusbasepic_actual292.jpg" alt="Prometheus - map room"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/Sean-Harris292.jpg" alt="Prometheus - crew member Fifield"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/ship1292.jpg" alt="Prometheus - ship shot 1"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/stasis293.jpg" alt="Prometheus Dr Shaw in stasis chamber"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/vickers292.jpg" alt="Prometheus - crew member Meredith Vickers"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/ship2292.jpg" alt="Prometheus - ship shot 2"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/rose292.jpg" alt="Prometheus Charlie with rose"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/weyland292.jpg" alt="Prometheus - Peter Weyland"></li>
+	          			<li class="slideimg"><img src="assets/images/jslideshow/ridley292.jpg" alt="Prometheus director Ridley Scott"></li>
+					</ul>
+				</div> <!-- /rslides-container-->
+			</div> <!-- /gallerycontainer-->
+	</div> <!-- /Dialog -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+		<script src="responsiveslides.js"></script>
+
+		<script>
+					
+			$(function() {
+	    		$(".rslides").responsiveSlides({
+	                auto: true,             // Boolean: Animate automatically, true or false
+	                speed: 1200,            // Integer: Speed of the transition, in milliseconds
+	                timeout: 4800,          // Integer: Time between slide transitions, in milliseconds
+	                pager: true,            // Boolean: Show pager, true or false
+	                nav: true,              // Boolean: Show navigation, true or false
+	                random: false,          // Boolean: Randomize the order of the slides, true or false
+	                pause: false,           // Boolean: Pause on hover, true or false
+	                pauseControls: false,   // Boolean: Pause when hovering controls, true or false
+	                prevText: '&#8592;',    // String: Text for the "previous" button
+	                nextText: '&#8594;',    // String: Text for the "next" button
+	                maxwidth: '',           // Integer: Max-width of the slideshow, in pixels
+	                navContainer: '',       // Selector: Where auto generated controls should be appended to, default is after the <ul>
+	                manualControls: '',     // Selector: Declare custom pager navigation
+	                namespace: 'rslides',   // String: change the default namespace used
+	                before: function () {}, // Function: Before callback
+	                after: function () {}   // Function: After callback
+	        	});
+	  		});
+
+		</script>
+
+</body>
+</html>
